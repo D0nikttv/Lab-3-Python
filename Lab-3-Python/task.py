@@ -4,7 +4,7 @@ from key_generate import key_generate
 import itertools
 
 root = Tk()
-root.title('EBOBO')
+root.title('Name')
 root.geometry('500x350+500+300')
 
 
@@ -43,3 +43,4 @@ btn = Button(canvas, text='Генерация ключа', command=key_gen)
 
 root.bind('<Configure>', resize_image)
 root.mainloop()
+
